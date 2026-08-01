@@ -1,7 +1,7 @@
 # 📚 Sistema Académico
 
 # 📖 Descripción
-El presente proyecto consiste en el desarrollo de una aplicación móvil denominada **Sistema Académico**, que permite simular algunas de las funciones básicas de un sistema universitario.
+El presente proyecto consiste en el desarrollo de una aplicación móvil denominada **Sistema Académico**, elaborada en React Native con Expo. 
 La aplicación cuenta con un **menú principal** desde el cual el usuario puede ingresar al módulo de **Estudiantes** o **Docentes**.
 
 # ✨ Funciones implementadas
@@ -15,9 +15,7 @@ La aplicación cuenta con un **menú principal** desde el cual el usuario puede 
 ## 👨‍🏫 Módulo Docente
 - Selección de materia mediante una lista desplegable.
 - Registro de estudiantes y sus notas.
-- Visualización dinámica de las notas registradas.
 
----
 
 # ⚛️ Conceptos de React Native aplicados
 Durante el desarrollo del proyecto se utilizaron los siguientes componentes y conceptos:
@@ -38,11 +36,8 @@ Durante el desarrollo del proyecto se utilizaron los siguientes componentes y co
 Para simular el funcionamiento del sistema sin utilizar una base de datos se emplearon:
 - Arreglos unidimensionales.
 - Arreglos bidimensionales.
-- Arreglos de objetos.
-- Generación aleatoria (**Random**) para asignar:
-  - Notas.
-  - Paralelos.
-  - Datos de ejemplo.
+- Arreglos de objetos para representar materias, notas, paralelos y horarios.
+- Generación aleatoria (Random) para asignar notas, paralelos y algunos datos de ejemplo.
 
 Además, se implementó una lógica académica que simula el avance del estudiante entre gestiones considerando:
 - Materias aprobadas.
@@ -63,19 +58,17 @@ Las pantallas disponibles son:
 - 🏅 Récord académico
 - 🗓️ Horario
 
-También se implementó un **menú de navegación inferior** con botones de **Inicio** y **Volver**, facilitando la navegación entre las diferentes ventanas.
+También se implementó un **menú de navegación inferior** con botones de **Inicio** y **Volver**, para facilitar el acceso entre las diferentes ventanas de la aplicación.
 
 ---
-
 # 🛠️ Tecnologías utilizadas
 - React Native
 - Expo
 - Expo Router
 - JavaScript
 - Visual Studio Code
-
 ---
 
 # 📌 Observaciones
-Este proyecto fue desarrollado con fines académicos.
-Toda la información utilizada es simulada y se maneja mediante **estructuras de datos en memoria**, por lo que **no existe conexión con bases de datos**.
+Este proyecto tiene fines académicos. 
+ La información utilizada es simulada y se maneja únicamente mediante estructuras de datos en memoria, sin conexión a bases de datos.
